@@ -1,0 +1,14 @@
+# === Node ===
+node_modules/
+package-lock.json
+
+
+# === Build & Output ===
+dist/
+
+# === Environment Files ===
+.env
+
+# === IDEs & Editors ===
+.vscode/
+.qodo/
