@@ -1,14 +1,14 @@
-import { Router } from 'express';
-import { InMemoryUserRepository } from '../infrastructure/repositories/inMemory/user.repository.impl';
-import { UserController } from './controller';
-import { AuthMiddleware } from '../../shared/middleware/auth.midleware';
+import { Router } from "express";
+import { UserController } from "./controller";
+import { AuthMiddleware } from "../../../shared/middleware/auth.midleware";
+import { FireStoreUserRepository } from "../infrastructure/repositories/firestore/user.repository";
 
 
 export class UserRoutes {
     static get routes(): Router {
         const router = Router();            
 
-        const repository = new InMemoryUserRepository();
+        const repository = new FireStoreUserRepository();
         const userController = new UserController(repository);
 (
         router.post('/', userController.createUser));

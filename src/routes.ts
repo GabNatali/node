@@ -1,6 +1,7 @@
 import { Router } from 'express';
-import { UserRoutes } from './user/application/routes';
-import { AuthRoutes } from './auth/routes';
+import { UserRoutes } from './modules/user/application/routes';
+import { AuthRoutes } from './modules/auth/routes';
+
 
 
 export class AppRoutes {

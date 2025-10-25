@@ -9,6 +9,9 @@ dist/
 # === Environment Files ===
 .env
 
+# === Service Account Keys ===
+keys/serviceAccount.json
+
 # === IDEs & Editors ===
 .vscode/
 .qodo/

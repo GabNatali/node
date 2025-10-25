@@ -1,4 +1,4 @@
-import { UuidAdapter } from '../../config/uuid.adapater';
+import { UuidAdapter } from '../../../config/uuid.adapater';
 import { UuidGenerator } from '../domain/utils/uuiGenerator';
 
 export class UuidIdGenerator implements UuidGenerator {

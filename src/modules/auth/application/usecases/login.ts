@@ -1,4 +1,4 @@
-import { JwtAdapter, JwtPayload } from "../../../config/jwt.adapter";
+import { JwtAdapter, JwtPayload } from "../../../../config/jwt.adapter";
 import { UserRepository } from "../../../user/domain/repositories/user.repository";
 import { Email } from "../../../user/domain/value-objects/email";
 
