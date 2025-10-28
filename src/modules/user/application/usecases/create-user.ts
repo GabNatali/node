@@ -1,6 +1,6 @@
 import { UserEntity } from "../../domain/entities/user.entity";
 import { UserRepository } from "../../domain/repositories/user.repository";
-import { UuidGenerator } from "../../domain/utils/uuiGenerator";
+import { UuidGenerator } from "../../../../shared/utils/uuiGenerator";
 import { Email } from "../../domain/value-objects/email";
 import { CreateUserDto } from "../dtos/user.dto";
 
